@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+  }
+  .back-container {
+    background-image: url("../images/ChromePipesLines.jpg");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .nav-container {
+    background-color: CornflowerBlue;
+    height: 100px;
+    width: 100%;
+  }
+  .nav {
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    padding: 40px 0px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .nav li a:link,
+  .nav li a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  .nav li a:hover,
+  .nav li a:active {
+    color: white;
+  }
+  .home-container {
+    padding-top: 50px;
+  }
+  .button {
+    display: inline-block;
+    background-color: silver;
+    border: none;
+    color: black;
+    padding: 25px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    cursor: pointer;
+  }
+  .button-container {
+    text-align: center;
+  }
+  .button:hover {
+    color: White;
+  }
+  #gallary1 {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #gallary1 img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+  }
+  .services {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  #gallary2 {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: silver;
+  }
+  #contact {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .contact-container{
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  #contact a:link,
+  #contact a:visited {
+    color: royalblue;
+    text-decoration: none;
+  }
+  #contact a:hover,
+  #contact a:active {
+    color: white;
+  }
+  .social {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .copyright{
+    padding-top: 5px;
+    padding-bottom: 55px;
+  }
+  h1 {
+    font-family: "Monoton", times;
+    font-size: 60px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: black;
+    font-weight: normal;
+    text-align: center;
+  }
+  h2 {
+    font-family: "Monoton", times;
+    font-size: 50px;
+    padding-bottom: 5px;
+    color: black;
+    font-weight: normal;
+  }
+  h3 {
+    font-family: times;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  .par {
+    font-family: times;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+  }
