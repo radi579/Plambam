@@ -117,7 +117,7 @@ body {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: CornflowerBlue;
+    background-color: darkgrey;
   }
   #contact {
     text-align: center;
